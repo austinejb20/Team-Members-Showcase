@@ -1,5 +1,5 @@
 ## Team Members Showcase
-- A modern and responsive team members showcase designed to display team profiles in a clean and interactive layout.
+ A modern and responsive team members showcase designed to display team profiles in a clean and interactive layout.
 - ## Features
 - Team members profile cards
 - Open option button functionality
