@@ -241,7 +241,7 @@ header p {
     font-weight: 600;
     font-size: 1rem;
     border-radius: 30px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
     box-shadow: 0 5px 15px var(--shadow-color-primary);
  }
 
