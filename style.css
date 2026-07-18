@@ -262,28 +262,54 @@ header p {
     header p {
         font-size: 1rem;
         width: 100%;
+        min-width: unset;  
+        padding: 0 10px;   
     }
-   
+
    .team-grid {
-    gap: 20px;
+        grid-template-columns: 1fr;  
+        gap: 20px;
+        padding: 0 10px;             
+        width: 100%;
+        box-sizing: border-box;
+   }
+
+   .team-card {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+   }
+
+   .card-bottom {
+        padding: 20px 15px 25px;    
    }
 
    .team-cta {
-    padding: 30px 20px;
+        padding: 30px 20px;
+        margin: 0 10px;           
    }
 
    .team-cta h2 {
-    font-size: 1.5rem;
+        font-size: 1.5rem;
    }
 }
 
 @media (max-width:480px) {
     body {
-        padding: 30px 15px;
+        padding: 30px 10px;        
     }
 
     header h1 {
         font-size: 1.9rem;
+    }
+
+    header p {
+        padding: 0 5px;
+    }
+
+    .team-grid {
+        padding: 0 5px;
+        gap: 15px;
     }
 
     .profile-img {
@@ -295,11 +321,20 @@ header p {
         font-size: 1.3rem;
     }
 
+    .card-bottom {
+        padding: 15px 12px 20px;
+    }
+
     .team-cta {
-        padding: 30px 20px;
+        padding: 25px 15px;
+        margin: 0 5px;
     }
 
     .team-cta h2 {
         font-size: 1.5rem;
+    }
+
+    .bio {
+        font-size: 0.9rem;
     }
 }
